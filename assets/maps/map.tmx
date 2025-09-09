@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="21" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="152">
+ <tileset firstgid="1" name="grass-tile" tilewidth="16" tileheight="16" tilecount="1" columns="1">
+  <image source="../tiles/grass-tile.png" width="16" height="16"/>
+ </tileset>
+ <tileset firstgid="2" name="stone-tile" tilewidth="16" tileheight="16" tilecount="1" columns="1">
+  <image source="../tiles/stone-tile.png" width="16" height="16"/>
+ </tileset>
+ <layer id="1" name="Ground" width="21" height="16">
+  <data encoding="csv">
+1,1,1,1,1,1,1,2,1,1,2,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,
+1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,2,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,2,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,2,1,2,1,1,1,1,1,1
+</data>
+ </layer>
+ <objectgroup id="2" name="collision" visible="0" locked="1">
+  <object id="1" x="112" y="6" width="12" height="4"/>
+  <object id="2" x="160" y="6" width="12" height="4"/>
+  <object id="3" x="32" y="38" width="12" height="4"/>
+  <object id="4" x="80" y="54" width="12" height="4"/>
+  <object id="5" x="144" y="86" width="12" height="4"/>
+  <object id="6" x="224" y="134" width="12" height="4"/>
+  <object id="7" x="32" y="102" width="12" height="4"/>
+  <object id="8" x="64" y="134" width="12" height="4"/>
+  <object id="9" x="32" y="182" width="12" height="4"/>
+  <object id="10" x="208" y="182" width="12" height="4"/>
+  <object id="11" x="128" y="198" width="12" height="4"/>
+  <object id="12" x="192" y="246" width="12" height="4"/>
+  <object id="13" x="224" y="246" width="12" height="4"/>
+ </objectgroup>
+</map>
